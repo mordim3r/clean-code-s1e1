@@ -21,9 +21,11 @@ body {
   }
   
   @media (max-width:768px) {
+
     .header {
       text-align: center;
     }
+    
   }
   
   .main {
@@ -83,25 +85,25 @@ body {
     text-transform: uppercase;
   }
   
-  input[type="text"] {
+  .input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
     height: 21px;
     padding: 0 9px;
-    border: 1px solid #dDd;
+    border: 1px solid #ddd;
     background: #FFF;
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
   }
   
-  input[type="text"]:focus {
+  .input:focus {
     color: #333;
   }
   
   /* New Task */
-  label[for="new-task"] {
+  .label {
     display: block;
     margin: 0 0 20px;
   }
